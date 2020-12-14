@@ -1,0 +1,6 @@
+dis=list(map(int,input().split()))
+x=min(dis)
+dis.remove(x)
+y=max(dis)
+dis.remove(y)
+print((y-dis[0])+(dis[0]-x))

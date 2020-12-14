@@ -1,0 +1,5 @@
+n=int(input())
+l=list(map(int,input().split()))
+total=int(n*(n+1)/2)
+suml=sum(l)
+print(total-suml)
